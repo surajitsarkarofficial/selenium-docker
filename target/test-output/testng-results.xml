@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-06T16:52:45 IST" name="FlightsSuite" finished-at="2020-12-06T16:52:54 IST" duration-ms="9245">
+    <groups>
+    </groups>
+    <test started-at="2020-12-06T16:52:45 IST" name="Flights" finished-at="2020-12-06T16:52:54 IST" duration-ms="9245">
+      <class name="flights.FlightsTests">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:flights.FlightsTests@7dc222ae]" started-at="2020-12-06T16:52:45 IST" name="beforeTest" finished-at="2020-12-06T16:52:49 IST" duration-ms="3972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyLabelCounts()[pri:0, instance:flights.FlightsTests@7dc222ae]" started-at="2020-12-06T16:52:49 IST" name="verifyLabelCounts" finished-at="2020-12-06T16:52:52 IST" duration-ms="3146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLabelCounts -->
+        <test-method signature="verifyLables()[pri:0, instance:flights.FlightsTests@7dc222ae]" started-at="2020-12-06T16:52:52 IST" name="verifyLables" finished-at="2020-12-06T16:52:54 IST" duration-ms="1591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLables -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:flights.FlightsTests@7dc222ae]" started-at="2020-12-06T16:52:54 IST" name="afterTest" finished-at="2020-12-06T16:52:54 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- flights.FlightsTests -->
+    </test> <!-- Flights -->
+  </suite> <!-- FlightsSuite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlightsSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Flights(failed)">
+    <classes>
+      <class name="flights.FlightsTests">
+        <methods>
+          <include name="verifyLables"/>
+          <include name="beforeTest"/>
+          <include name="verifyLabelCounts"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- flights.FlightsTests -->
+    </classes>
+  </test> <!-- Flights(failed) -->
+</suite> <!-- Failed suite [FlightsSuite] -->
