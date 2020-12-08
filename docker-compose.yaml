@@ -2,9 +2,7 @@ version: "3"
 services:
   hub: 
     image: selenium/hub:3.141.59
-    ports: 
-        - "4444:4444"
-      
+     
   chrome:
     image: selenium/node-chrome:3.141.59
     #shm_size = shared memory size
@@ -31,7 +29,7 @@ services:
         - MODULE=flightTests.xml
         - HUB_HOST=hub
     volumes:
-        - ./flight-chrome-tests-output:/usr/share/udemy/test-output
+        - ./output/flight-chrome-tests-output:/usr/share/udemy/test-output
   flights-firefox:
     image: surajitsarkarofficial/flight-tests
     depends_on:
@@ -42,4 +40,4 @@ services:
         - MODULE=flightTests.xml
         - HUB_HOST=hub
     volumes:
-        - ./flight-firefox-tests-output:/usr/share/udemy/test-output
+        - ./output/flight-firefox-tests-output:/usr/share/udemy/test-output
